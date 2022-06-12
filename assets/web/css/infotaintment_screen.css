@@ -1,0 +1,10 @@
+#infotaintment-screen{
+  border: 1px solid red;
+  height: 50px;
+  width: 100px;
+  background: #111111cf;
+  font-size: small;
+  color: green;
+  display: none;
+  position: fixed;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "threejs_experiments",
+  "version": "1.0.0",
+  "description": "asd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@enable3d/ammo-physics": "^0.25.1",
+    "three": "^0.140.2",
+    "three-ammo": "^1.0.12",
+    "three-collada-loader": "0.0.1",
+    "three-fbx-loader": "^1.0.3",
+    "three-gltf-loader": "^1.111.0",
+    "three-orbitcontrols": "^2.110.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
