@@ -1,0 +1,29 @@
+section#controls-screen {
+  position: fixed;
+  bottom: 0px;
+}
+
+button.button.button-w {
+  position: relative;
+  margin-left: 21px;
+}
+
+button.button.button-r {}
+
+button.button.button-r {
+  margin-left: 24px;
+}
+
+.top-button-row {
+  margin-bottom: 4px;
+}
+
+div#controls-info {
+  border: 1px solid grey;
+  background-color: #474242a6;
+}
+
+h4.controls-screen-heading {
+  font-size: small;
+  color: white;
+}

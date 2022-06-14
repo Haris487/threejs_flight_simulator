@@ -54,12 +54,12 @@ export class Singleton {
         this.elementParent.style.display = 'block';
       }
       update(plane){
-        let speed = Math.round(plane.speed);
+        let speed = Math.round(plane.forwardSpeed);
         let altitude = Math.round(plane.object.position.y);
         let throttle = Math.round(plane.throttle);
         this.element.innerHTML = `
         Speed : ${speed} Knots<br>
-        Altitude : ${altitude} Feets
+        Altitude : ${altitude} fts<br>
         Throttle : ${throttle} %
         `;
       }
